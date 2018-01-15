@@ -1,0 +1,10 @@
+Flask==0.12
+Flask-BasicAuth==0.2.0
+Werkzeug==0.11.13
+requests==2.13.0
+tinydb==3.5.0
+futures==3.1.1
+gunicorn==19.7.1
+Pillow==4.2.1
+requests-toolbelt==0.8.0
+pathlib2==2.1.0
