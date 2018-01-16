@@ -7,9 +7,9 @@ Table of Contents
 =================
 
    * [Features](#features)
-      * [Installation](#installation)
-      * [Usage](#usage)
-      * [Development](#development)
+   * [Installation](#installation)
+   * [Usage](#usage)
+   * [Development](#development)
 
 ## Features
 
@@ -29,7 +29,9 @@ pip install -r requirements.txt
 
 ## Usage
 
+Once you have the local client up and running, you can serve requests. For this prototype, the natural language processing (NLP) is done through [Dialogflow](https://dialogflow.com/). This tool receives the Spark message of the user and then matches the message to 'intents' that have been created in the tool. You can either re-create the intents manually, or you can install the provided 'Spark-Cisco-Connector.zip' in your own Dialogflow instance.
 
+In terms of setup, you need to add your Spark Bot account to Dialogflow. Once that is done, you just need to point your Dialogflow instance to the IP or URL of your Python script, and you can start serving requests. Requests will then flow from the Spark client to Dialogflow to the Python script. The Python script then directly replies to the Spark user without going through Dialogflow.
 
 ## Development
 
