@@ -35,7 +35,7 @@ In terms of setup, you need to add your Spark Bot account to Dialogflow. Once th
 
 ## Development
 
-
+You can extend the capabilities of the Spark Bot in a two step process. First, you need to add a new intent in Dialogflow. This allows us to differentiate the request in the script and route the request to the corresponding function. Creating this function is the second step, which then allows us to answer a client request. This function has to contain all the logic, which involves parsing the inputs and creating the response.
 
 
 WARNING:
